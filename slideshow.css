@@ -2,10 +2,11 @@
 /* size */
 #slideshow{
 	width: 100%;
-	height: 500px;
+	height: 600px;
+	position: absolute;
 }
 #slideshow figure img{
-	max-height: 500px; /* same values = best experience */
+	max-height: 700px; /* same values = best experience */
 }
 
 /* navigation size */
@@ -16,7 +17,7 @@
 
 /* colors */
 #slideshow,#slideshow figure{
-	background: #1E1E1E; /* the color of slideshow container */
+	background: #000000; /* the color of slideshow container */
 }
 #slideshow figure figcaption{
 	background: rgba(0,0,0,0.7); /* the background color of the caption */
@@ -26,15 +27,15 @@
 
 /* navigation colors */
 #slideshow ul a{
-  border: 3px solid gray; /* the border of the navigation rings */
+/*  border: 3px solid gray; */ /* the border of the navigation rings */
 
-	background: gainsboro; /* the fill color of empty navigation ring */
+/*	background: gainsboro; */ /* the fill color of empty navigation ring */
 }
 #slideshow ul a.slide{
-	background: black; /* the fill color of active */
+/*	background: black; */ /* the fill color of active */
 }
 #slideshow ul a:hover{
-	background: gray; /* the fill color when the user moves over the navigation */
+/*	background: gray; */ /* the fill color when the user moves over the navigation */
 }
 
 /* transitions */

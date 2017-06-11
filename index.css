@@ -5,6 +5,7 @@
 body{
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1em;
+  background: #000000; /* the color of slideshow container */
 }
 header{
   display: -webkit-flex;
@@ -33,4 +34,9 @@ h2{
   border-bottom: 1px solid gray;
   font-size: 2em;
   font-weight: lighter;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
 }
